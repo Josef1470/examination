@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styling */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+header > h1{
+    color: white;
+}
+
+
+
+
+
+/* Main styling */
+main{
+    margin-top: auto;
+}
+
+.col{
+    border: 1px solid black;
+}
+
+#bus_api{
+    background-image: url("../img/sl-loga.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: url("../img/tarning.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#random_number{
+    font-size: 100px;
+}
+
+
+
+
+/* footer styling */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding: 5px;
+
+    background-color: blueviolet;
+}
+
+footer > p{
+    margin: 0;
+}
+
+
